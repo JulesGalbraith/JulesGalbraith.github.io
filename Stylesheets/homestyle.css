@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 .body1 {
-  background-color: rgb(100, 110, 190);
+  background-color:rgba(107, 118, 207,0.7);
 
   display: block;
   padding-top: 3%;
@@ -18,12 +18,12 @@
 /* main page */
 
 #titleName {
-  background-color: white;
+  background-color: rgba(255,255,255,0.5);
   display: block;
   font-family: OCR A Std, monospace;
   text-align: right;
   font-weight: bolder;
-  border-radius:5px;
+  border-radius:20px;
   padding: 30px;
 margin: 50px;
 }
@@ -47,9 +47,9 @@ margin: 50px;
 .topPics {
   width: 95%;
   margin-top: 50px;
-  border-style: double;
+  border-style: outset;
   border-color: rgb(255, 255, 150);
-  border-width: medium;
+  border-radius: 20px;
 }
 
 /* right image */
@@ -105,12 +105,12 @@ margin: 50px;
   margin-bottom: 3%;
   margin-left: 1%;
   padding: 3%;
-  background-color: rgb(190, 190, 250);
+  background-color: rgba(255, 255, 255,0.4);
   width: 98%;
   height: 500px;
   border-width: 30px;
   border-radius: 300px;
-  border-color: rgb(200, 255, 200);
+  border-color: rgba(200, 255, 200,0.5);
   border-style: outset;
   min-height: 200px;
 }
@@ -188,14 +188,14 @@ flex-wrap: wrap;
 margin: 5%;
 width: 500px;
 height: 500px;
-box-shadow: 0 0 30px 20px white;
+box-shadow: 0 0 10px white;
 border-radius: 10px;
 
 }
 
 .samePagePoem {
 margin: 5%;
-box-shadow: 0 0 30px 10px white;
+box-shadow: 0 0 10px white;
 border-radius: 10px;
 }
 
