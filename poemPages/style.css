@@ -10,7 +10,7 @@
 /* final 5 */
 #colourChange {
   background-color: lavender;
-  animation: change 5s infinite;
+  animation: change 10s infinite;
 }
 
 @keyframes change {
@@ -35,10 +35,11 @@
   position: absolute;
   top: -40px;
   z-index: -10;
+  margin: 10%;;
   font-weight: bold;
-  font-size: 51px;
+  font-size: 40px;
   font-family: 'Major Mono Display', monospace;
-  text-align: justify;
+  text-align: center;
   color: white;
   text-shadow:
     -1px -1px 0 #000,
@@ -141,7 +142,7 @@
 /* final8 */
 #colourChange2 {
   background-color: #ff6a57;
-  animation: change2 5s infinite;
+  animation: change2 10s infinite;
 }
 
 @keyframes change2 {
