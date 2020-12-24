@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 .body1 {
-  background-color: rgb(100, 110, 190);
+  background-color:rgba(107, 118, 207,0.7);
 
   display: block;
   padding-top: 3%;
@@ -18,7 +18,7 @@
 /* main page */
 
 .intro {
-  background-color: white;
+  background-color: rgba(255,255,255,0.5);
   display: block;
   font-family: OCR A Std, monospace;
   text-align: right;
@@ -48,7 +48,7 @@ margin: 50px;
 
 #pdfDiv{
   height: 1000px;
-  background: white;
+  background-color: rgba(255,255,255,0.5);
   border-radius: 10px;
    margin:5%;
 }
@@ -65,7 +65,7 @@ margin: 50px;
   margin-left: 10%;
   margin-right:10%;
   padding: 10px;
-  background: white;
+  background-color: rgba(255,255,255,0.5);
   border-radius: 10px;
   font-family: OCR A Std, monospace;
 }
@@ -85,7 +85,7 @@ cursor: pointer;
   text-indent: 5%;
   font-family: monospace;
   font-size: 15px;
-  background: white;
+  background-color: rgba(255,255,255,0.5);
   border-radius: 10px;
 }
 .axiom {
