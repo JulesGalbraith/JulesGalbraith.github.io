@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
 
 .body1 {
-  background-color:rgba(76, 86, 166,0.4);
+  background-color:rgba(76, 86, 250,0.1);
 
   display: block;
   padding-top: 1%;
@@ -53,10 +53,10 @@ align: right;
 }
 
 .topPics {
-width: 47%;
-  border-style: outset;
+width: 50%;
+  /* border-style: outset;
   border-color: rgb(255, 255, 150);
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 /* right image */
@@ -69,11 +69,11 @@ width: 47%;
 
 #imgDiv {
   display: flex;
-  width: 90%;
+  /* width: 90%; */
   margin-top:6%;
   padding-top:1%;
   justify-content: space-around;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
 
 
@@ -215,4 +215,8 @@ border-radius: 10px;
   margin-right:20%;
   box-shadow: 0 0 10px white;
   border-radius: 10px;
+}
+
+.pubImgLink:hover{
+  box-shadow: 0 0 10px black;
 }
