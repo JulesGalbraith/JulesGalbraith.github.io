@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amiko|Jacques+Francois+Shadow|Lexend+Zetta|Libre+Barcode+39+Extended+Text|Major+Mono+Display|Mallanna|Nanum+Gothic+Coding|PT+Mono|Quattrocento|Questrial|Scope+One|Spectral&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
 .body1 {
   background-color:rgba(76, 86, 250,0.1);
 
@@ -13,6 +13,34 @@
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 3%;
+}
+
+.bodyGL{
+  background-color:rgb(44, 45, 73,0.7);
+
+  display: block;
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+}
+
+/* #imgContainer{
+  background-color: white;
+  width: 50%;
+  margin: auto;
+} */
+
+.imgLink{
+  width: 76%;
+  margin-left: 12%;
+  margin-top: 2%;
+  box-shadow: 0 0 3px white;
+  border-radius: 5px;
+}
+
+.imgLink:hover{
+  box-shadow: 0 0 10px black;
 }
 
 /* main page */
@@ -24,9 +52,9 @@
 
   display: block;
   color: white;
-  font-family: 'Roboto', monospace;
+  font-family: 'Shippori Mincho', serif;
   text-align: right;
-  /* font-weight: bolder; */
+  font-weight: 700;
   border-radius:10px;
   padding: 30px;
 margin-top: 50px;
@@ -36,13 +64,14 @@ margin-top: 50px;
 .menuLink {
   display: inline;
   padding-right:15px;
-  font-family: OCR A Std, monospace;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 800;
   text-decoration: none;
   color: indigo;
-  text-shadow: 2px 2px rgb(255, 255, 150),
-    -2px 2px rgb(255, 255, 150),
-    2px -2px rgb(255, 255, 150),
-    -2px 2px rgb(255, 255, 150);
+  text-shadow: 2px 2px 2px rgb(255, 255, 150),
+    -2px 2px 2px rgb(255, 255, 150),
+    2px -2px 2px rgb(255, 255, 150),
+    -2px 2px 2px rgb(255, 255, 150);
 }
 
 .menuLink:hover {
@@ -71,7 +100,7 @@ margin-top: 50px;
   padding: 10px;
   background-color: rgba(255,255,255,0.5);
   border-radius: 10px;
-  font-family: 'Roboto', monospace;
+  font-family: 'Shippori Mincho', serif;
 }
 
 .collapseHeader:hover{
@@ -87,9 +116,9 @@ cursor: pointer;
   padding-top: 5%;
   padding-bottom: 5%;
   text-indent: 5%;
-  font-family: monospace;
+  font-family: 'Shippori Mincho', serif;
   font-size: 15px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.897);
   border-radius: 10px;
 }
 .axiom {
@@ -98,7 +127,7 @@ cursor: pointer;
 }
 
 #videoDiv{
-  font-family: 'Roboto', monospace;
+  font-family: 'Roboto  font-family: 'Shippori Mincho', serif;
   font-weight: bold;
   font-size: 20px;
 margin: 3%;
@@ -128,7 +157,7 @@ max-width: 45%;
 #downloads{
   margin-left: 50%;
   width: 30%;
-  font-family: 'Roboto', monospace;
+  font-family: 'Shippori Mincho', serif;
   font-size: 20px;
   margin-top: 5%;
   align-content: center;

@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amiko|Jacques+Francois+Shadow|Lexend+Zetta|Libre+Barcode+39+Extended+Text|Major+Mono+Display|Mallanna|Nanum+Gothic+Coding|PT+Mono|Quattrocento|Questrial|Scope+One|Spectral&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
 
 .body1 {
   background-color:rgba(76, 86, 250,0.1);
@@ -26,8 +27,8 @@ align: right;
   position: fixed;
   background-color: rgba(255,255,255,0.5);
   display: block;
-  font-family: 'Roboto', monospace;
-  font-weight: lighter;
+  font-family: 'Shippori Mincho', serif;
+  /* font-weight: lighter; */
   /* font-size: 20px; */
   font-weight: bolder;
   /* border-radius:20px; */
@@ -39,7 +40,8 @@ align: right;
   text-align: left;
   display: inline;
   padding-right:15px;
-  font-family: OCR A Std, monospace;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500;
   text-decoration: none;
   color: indigo;
   text-shadow: 2px 2px rgb(255, 255, 150),
@@ -61,7 +63,7 @@ width: 50%;
 
 /* right image */
 #rText {
-  font-family: "Roboto-Mono", monospace;
+  font-family: 'Shippori Mincho', serif;
   font-size: 20px;
   color: white;
   text-align: right;
@@ -79,7 +81,7 @@ width: 50%;
 
 /* left image */
 #lText {
-  font-family: "Roboto-Mono", monospace;
+  font-family: 'Shippori Mincho', serif;
   font-size: 20px;
   color: white;
   text-align: left;
