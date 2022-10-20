@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
 
 .body1 {
-  background-color: lavender;
-  animation: change 10s infinite;
+  background-image: url("/Assets/Images/Untitled-1.gif");
+  background-size: cover;
 
   display: block;
   padding-top: 3%;
@@ -17,7 +17,7 @@
   padding-bottom: 3%;
 }
 
-
+/* 
 
 @keyframes change {
  
@@ -36,7 +36,7 @@
   100% {
     background-color: #4d5a7a;
   }
-  }
+  } */
 }
 /* nav menu */
 .menuLink {
@@ -62,7 +62,7 @@
   margin-top:50px;
   margin-bottom:50px;
   padding: 50px;
-  background:white;
+  background:rgba(255, 255, 255, 0.864);
   border-radius: 3px;
   font-family: 'Shippori Mincho', serif;
   font-weight: 300;
