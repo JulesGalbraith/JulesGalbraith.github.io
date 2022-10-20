@@ -15,7 +15,9 @@
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 3%;
+  font-weight: 600;
 }
+
 
 /* 
 
@@ -65,6 +67,18 @@
   background:rgba(255, 255, 255, 0.864);
   border-radius: 3px;
   font-family: 'Shippori Mincho', serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 15px;
+}
+
+@media only screen and (min-width: 400px) {
+
+  .body1{
+    padding-left:0%;
+    padding-right:0%;
+  }
+  #nothingYet{
+  margin-left: 10%;
+  margin-right: 10%;
+  }
 }
