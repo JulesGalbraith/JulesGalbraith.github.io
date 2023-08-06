@@ -29,6 +29,19 @@ font-size:40px;
   overflow-y:scroll;
 }
 
+.littleTitle{
+  font-size:30px;
+  color:rgb(117, 93, 184);
+}
+
+.linkLink {
+  color: black;
+  text-decoration: none;
+}
+.linkLink:hover{
+  background-color: rgba(169, 255, 226,0.6);
+}
+
 @media only screen and (max-width: 768px) {
 
   .body1{
@@ -43,3 +56,5 @@ flex-wrap: wrap;
     height: 350px;
   } 
 }
+
+
